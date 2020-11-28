@@ -121,8 +121,8 @@ function createMap(earthquakes) {
 
     // Create overlay object to hold our overlay layer
     var overlayMaps = {
-        Earthquakes: earthquakes,
-        FaultLines: faultlines // Add fault lines to the overlay layer object.
+        "Earthquakes": earthquakes,
+        "Fault Lines": faultlines // Add fault lines to the overlay layer object.
     };
 
 
