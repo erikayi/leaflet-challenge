@@ -173,7 +173,7 @@ function createMap(earthquakes) {
 
             style: function () {
                 return {
-                    color: "orange",
+                    color: "#FF9B00",
                     fillOpacity: 0
                 }
             }

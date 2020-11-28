@@ -84,7 +84,7 @@ function createFeatures(earthquakeData) {
 function createMap(earthquakes) {
 
   // Define streetmap and darkmap layers
-  var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+  var outdoormap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
     tileSize: 512,
     maxZoom: 18,
@@ -93,7 +93,7 @@ function createMap(earthquakes) {
     accessToken: API_KEY
   });
 
-  var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+  var grayscalemap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
   maxZoom: 18,
   id: "light-v10",
@@ -109,8 +109,8 @@ function createMap(earthquakes) {
 
   // Define a baseMaps object to hold our base layers
   var baseMaps = {
-    "Street Map": streetmap,
-    "Light Map": lightmap,
+    "Outdoor Map": outdoormap,
+    "Grayscale Map": grayscalemap,
     "Dark Map": darkmap
   };
 
@@ -126,7 +126,7 @@ function createMap(earthquakes) {
       37.09, -95.71
     ],
     zoom: 5,
-    layers: [streetmap, earthquakes]
+    layers: [outdoormap, earthquakes]
   });
 
   // Create a layer control
