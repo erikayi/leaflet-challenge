@@ -18,6 +18,8 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ![Stage1](Leaflet-Step-1/Images/Stage1.gif)
 
+* To see the visualization on live, follow this link: https://vimeo.com/484947107
+
 
 ### Step 2: More Data To Discover 
 
@@ -28,6 +30,8 @@ The USGS is interested in building a new set of tools that will allow them visua
 * Compare and contrast these relationships along with the original data set created from the first map.
 
 ![Stage2](Leaflet-Step-2/Images/Stage2.gif)
+
+* To see the visualization on live, follow this link: https://vimeo.com/484947183 
 
 
 
