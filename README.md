@@ -10,24 +10,24 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ### Step 1: Create Basic Visualization For Earthquake Data Set.
 
-![CaptureA](Images/CaptureA.PNG)
+![CaptureA](Leaflet-Step-1/Images/CaptureA.PNG)
 
 * Get your data set ready for visualization 
 
 * Import & Visualize the Data 
 
-![Stage1](Images/Stage1.gif)
+![Stage1](Leaflet-Step-1/Images/Stage1.gif)
 
 
 ### Step 2: More Data To Discover 
 
-![CaptureB](Images/CaptureB.PNG)
+![CaptureB](Leaflet-Step-2/Images/CaptureB.PNG)
 
 * Illustrate the relationships between tectonic plates and seismic activity. 
 
 * Compare and contrast these relationships along with the original data set created from the first map.
 
-![Stage2](Images/Stage2.gif)
+![Stage2](Leaflet-Step-2/Images/Stage2.gif)
 
 
 
