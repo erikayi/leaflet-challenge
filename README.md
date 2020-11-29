@@ -1,6 +1,6 @@
 # Leaflet.js Challenge Work 
 
-# Introduction
+# Introduction Of The Project Work:
 
 Welcome to the United States Geological Survey, or USGS for short! The USGS is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment; and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes. As a new hire, you will be helping them out with an exciting new project!
 
@@ -10,22 +10,26 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ### Step 1: Create Basic Visualization For Earthquake Data Set.
 
-![Screenshot-of-the-work-will-be-placed-here](Images/Screenshot.png)
+![CaptureA](Images/CaptureA.PNG)
 
 * Get your data set ready for visualization 
 
 * Import & Visualize the Data 
 
+![Stage1](Images/Stage1.gif)
+
 
 ### Step 2: More Data To Discover 
 
-![Screenshot-of-the-work-will-be-placed-here](Images/Screenshot.png)
+![CaptureB](Images/CaptureB.PNG)
 
 * Illustrate the relationships between tectonic plates and seismic activity. 
 
 * Compare and contrast these relationships along with the original data set created from the first map.
 
+![Stage2](Images/Stage2.gif)
 
-### Be Sure To Design The Layout As Clean & Beautiful!
+
+
 
 Erika Yi © 2020. All Rights Reserved. 
