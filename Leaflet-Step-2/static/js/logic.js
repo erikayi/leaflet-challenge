@@ -115,7 +115,7 @@ function createMap(earthquakes) {
     // Define a baseMaps object to hold our base layers
     var baseMaps = {
         "Satellite Map": satellitemap, // Add Satellite Map.
-        "Greyscale Map": lightmap, // Changed the name to Greyscale Map.
+        "Grayscale Map": lightmap, // Changed the name to Grayscale Map.
         "Outdoor Map": outdoormap // Add Outdoor Map.
     };
 
